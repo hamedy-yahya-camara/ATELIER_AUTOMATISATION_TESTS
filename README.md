@@ -1,3 +1,38 @@
+# 🧪 API Monitoring & Testing as Code — CI/CD
+
+> Automatisation des tests d'une API publique avec déploiement continu 
+> sur PythonAnywhere via GitHub Actions.
+
+![Python](https://img.shields.io/badge/Python-Flask-3776AB?logo=python)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-CI%2FCD-2088FF?logo=githubactions)
+![PythonAnywhere](https://img.shields.io/badge/Deployed-PythonAnywhere-1D9FD7)
+
+## 🎯 Objectif du projet
+
+Passer du rôle de développeur à celui d'ingénieur qualité :
+
+- **Choisir une API publique** et concevoir une solution de tests automatisés
+- **Mesurer la qualité de service** (disponibilité, temps de réponse, indicateurs)
+- **Automatiser le déploiement** via un pipeline CI/CD GitHub Actions
+
+## 🏗️ Stack technique
+
+| Outil | Rôle |
+|---|---|
+| Flask | Application web de monitoring |
+| GitHub Actions | Pipeline CI/CD — déploiement automatique |
+| PythonAnywhere | Hébergement de l'application |
+| API publique | Source de données testée et surveillée |
+
+## 📁 Structure du projet
+
+```
+├── .github/workflows/    # Pipeline CI/CD GitHub Actions
+├── templates/            # Templates HTML Flask
+├── flask_app.py          # Application Flask principale
+├── requirements.txt      # Dépendances Python
+└── API_CHOICE.md         # Choix et justification de l'API
+```
 ------------------------------------------------------------------------------------------------------
 🎯Atelier “Testing as Code & API Monitoring”
 ------------------------------------------------------------------------------------------------------
